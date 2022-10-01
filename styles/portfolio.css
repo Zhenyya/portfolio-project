@@ -54,22 +54,32 @@ p {
   line-height: 1.5;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
-  font-size: 60px;
-  line-height: 75px;
+.content {
+  margin: 10px 30px;
 }
 
-.about-section h2 {
+.content h1 {
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.content h2 {
   font-size: 20px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
-  margin: 10px 30px;
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
 }
 
 .about-photo {
@@ -99,14 +109,13 @@ p {
 }
 
 @media (max-width: 960px) {
-  h1,
-  .about-section h1 {
+  h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.7;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   .hero {
@@ -118,12 +127,12 @@ p {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0 0 20px 0;
   }
 
-  .about-section h1 {
+  .content h1 {
     font-size: 44px;
     line-height: 56px;
   }
