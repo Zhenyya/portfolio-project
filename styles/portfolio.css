@@ -54,8 +54,13 @@ p {
   line-height: 1.5;
 }
 
+.description-section p {
+  font-size: 22px;
+  margin: 0;
+}
+
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px 10px;
 }
 
 .content {
@@ -150,7 +155,7 @@ nav li.active a {
 }
 
 footer {
-  margin: 0 0 60px 0;
+  margin: 0 10px 40px;
 }
 
 footer .contact-box {
@@ -174,6 +179,11 @@ footer .email-link {
   color: black;
   font-size: 22px;
   text-align: center;
+}
+
+footer .github-link {
+  color: var(--branding-color);
+  text-decoration: none;
 }
 
 footer .email-link:hover {
@@ -207,6 +217,11 @@ footer .social-links a:hover {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .description-section p {
+    font-size: 18px;
+    margin: 0 15px;
   }
 
   .project-description {
